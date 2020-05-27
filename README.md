@@ -12,9 +12,9 @@
 </h2>
 
 <p align="center">
-  <img src="inc/pic01.png" width="600px" height="400px">
-  <img src="inc/pic02.png" width="400px" height="400px">
-  <img src="inc/pic03.png" width="400px"height="400px">
+  <img src="inc/pic01.png" width="800px" height="500px">
+  <img src="inc/pic02.png" width="800px" height="500px">
+  <img src="inc/pic03.png" width="800px"height="500px">
 <br>
 <br>
 <h1 align="center">
