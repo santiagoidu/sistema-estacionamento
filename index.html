@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Estacionamento</title>
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="inc/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="inc/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="inc/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="inc/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="inc/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="inc/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="inc/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="inc/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="inc/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="inc/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="inc/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="inc/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="inc/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+	<meta charset="utf-8">
+</head>
+<body onload="mostraPatio()">
+<div class="container">
+	
+	<div class="header clearfix" style="text-align: center;">
+		<img src="inc/logo.png" id="logo">
+	</div>
+	
+	<div class="jumbotron">
+		<form id="formulario">
+		<div id="aviso"></div>
+			<div class="form-group">
+				<label>Modelo do Veículo:</label>
+				<input type="text" class="form-control" name="" id="modeloVeiculo" placeholder="Digite o modelo do veiculo...">
+			</div>
+			<div class="form-group">
+				<label>Placa do Veículo:</label>
+				<input type="text" class="form-control" name="" id="placaVeiculo" placeholder="Digite a placa do veiculo...">
+			</div>
+			<button type="submit" class="btn btn-primary">Adicionar</button>
+		</form>
+	</div>
+
+	<div class="row marketing">
+		<div class="col-lg-12">
+		 <table class="table table-hover" >
+		    <thead>
+		      <tr>
+		        <th>Modelo</th>
+		        <th>Placa</th>
+		        <th>Entrada</th>
+		        <th>Finalizar</th>
+		      </tr>
+		    </thead>
+		    <tbody id="resultados">
+		    </tbody>
+		 </table>
+		</div>
+	</div>
+</div>
+<footer id="rodape">
+    <p>&copy; 2020 Marco Tulio Santiago <br>
+        <a href="https://github.com/santiagoidu/" target="blank"> GitHub </a> |
+        <a href="https://www.instagram.com/marco_tulio_santiago_" target="blank">Instagram</a></p>
+</footer>
+ 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+	</body>
+</html>

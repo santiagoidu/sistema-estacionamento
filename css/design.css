@@ -1,0 +1,19 @@
+body {
+    background: url(../inc/bck.jpg) 40% 30%;
+}
+
+img#logo {
+    
+    width: 300px;
+    height: 200px;
+}
+
+footer#rodape p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+ 
+footer#rodape a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
